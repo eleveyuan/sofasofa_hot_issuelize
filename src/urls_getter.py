@@ -6,9 +6,14 @@ from bs4 import BeautifulSoup
 class UrlGetter:
     def get_entities(self, root_url, interface, method='POST', payload=''):
         if method == 'POST':
-            res = requests.request(method, interface, data=payload)
-            self.root_url = root_url
-            self.content = res.content.decode('utf-8')
+            try:
+                res = requests.request(method, interface, data=payload)
+                self.root_url = root_url
+                self.content = res.content.decode('utf-8')
+            except Exception as e:
+                self.content = ''
+                print(f'get page failed, due to {e}')
+
         else:
             pass
 
