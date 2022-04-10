@@ -1,0 +1,1 @@
+{"id": "1005452", "question": "证明在线性回归中，如果样本数量N小于特征数量d+1，则XXT的秩最大为N?", "description": "<div class=\"col-md-11 col-xs-10\">这个问题是邱锡鹏先生《神经网络与深度学习》中的思考题，希望看一下大家的看法。</div>", "viewer": 3414, "tags": ["统计/机器学习", "回归分析", "监督式学习"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>矩阵$X$是有$N$行$d$列，$XX^T$是有$N$行$N$列，所以秩最大为$N$。</p></div>", "lvl2_answer": []}]}

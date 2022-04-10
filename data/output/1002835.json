@@ -1,0 +1,1 @@
+{"id": "1002835", "question": "R里面dir函数是什么意思？", "description": "<div class=\"col-md-11 col-xs-10\"><p>R里面dir函数是什么意思？有什么用</p></div>", "viewer": 9281, "tags": ["统计/机器学习", "R"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>dir()是列举路径下所有的文件名，比如</p><pre><code class=\"python\">dir(path = \".\")</code></pre><p><br/></p></div>", "lvl2_answer": []}]}

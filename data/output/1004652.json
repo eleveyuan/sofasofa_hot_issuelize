@@ -1,0 +1,1 @@
+{"id": "1004652", "question": "GloVe是神经网络模型吗？", "description": "<div class=\"col-md-11 col-xs-10\"><p>GloVe是神经网络模型吗？是什么结构？</p></div>", "viewer": 3189, "tags": ["统计/机器学习", "自然语言处理", "数据降维", "人工神经网络"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>不是神经网络模型，就是一个矩阵分解算法。</p></div>", "lvl2_answer": []}]}

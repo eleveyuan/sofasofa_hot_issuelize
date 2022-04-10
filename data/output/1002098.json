@@ -1,0 +1,1 @@
+{"id": "1002098", "question": "训练值都是正的，xgboost regression却预测出负数？", "description": "<div class=\"col-md-11 col-xs-10\"><p>我用xgboost做回归预测。</p><p>训练集中的目标值都是正的，做预测时xgboost regression却预测出负数？</p><p>这是什么情况？</p><p>为什么会发生这样的情况呢？</p><p><br/></p></div>", "viewer": 6459, "tags": ["统计/机器学习", "回归分析", "监督式学习"], "answers": []}

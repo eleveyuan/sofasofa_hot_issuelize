@@ -1,0 +1,1 @@
+{"id": "1022270", "question": "概率论问题 求(X+Y)/(X-Y)的分布", "description": "<div class=\"col-md-11 col-xs-10\"><p>已知 $X\\sim N(\\mu_1, \\sigma_1^2)$, $Y\\sim N(\\mu_2, \\sigma_2^2)$. X与Y独立。求 $(X+Y)/(X-Y)$ 的分布。</p><p><br/></p></div>", "viewer": 118, "tags": ["数学", "概率论"], "answers": []}

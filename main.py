@@ -59,6 +59,4 @@ for question_url in titles:
     }
     with open('./data/output/' + id + '.json', 'w') as fw:
         json.dump(QA, fw, ensure_ascii=False)
-    if i > 10:
-        break
-    i += 1
+

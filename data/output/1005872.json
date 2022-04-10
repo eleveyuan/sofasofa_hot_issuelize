@@ -1,0 +1,1 @@
+{"id": "1005872", "question": "神经网络模型里训练和推理是什么意思？", "description": "<div class=\"col-md-11 col-xs-10\"><p>神经网络模型里有训练和推理，这个训练和普通的机器学习模型的训练是不同的意思吗？推理又是什么意思呢？</p></div>", "viewer": 6362, "tags": ["统计/机器学习", "深度学习", "人工神经网络"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>所谓的训练就是我们理解的模型训练的过程。</p><p>推理则是predict。</p></div>", "lvl2_answer": ["原来如此，谢谢！"]}]}

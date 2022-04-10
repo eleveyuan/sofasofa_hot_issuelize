@@ -110,7 +110,7 @@ ENV/
 env.bak/
 venv.bak/
 .idea
-data/*
+data/main/*
 
 # Spyder project settings
 .spyderproject

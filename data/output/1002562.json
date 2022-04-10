@@ -1,0 +1,1 @@
+{"id": "1002562", "question": "什么叫成本函数？它的作用是什么？", "description": "<div class=\"col-md-11 col-xs-10\"><p>关于神经网络里面的这个东西，大神们 能尽量通俗易懂的下解释吗？</p></div>", "viewer": 3704, "tags": ["统计/机器学习", "人工神经网络"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>成本函数就是代价函数，翻译的不同，原意就是cost function</p></div>", "lvl2_answer": []}]}

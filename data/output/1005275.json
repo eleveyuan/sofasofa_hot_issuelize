@@ -1,0 +1,1 @@
+{"id": "1005275", "question": "强大数定律和弱大数定律有什么区别？", "description": "<div class=\"col-md-11 col-xs-10\"><p>强大数定律和弱大数定律有什么区别？求详解一二。</p></div>", "viewer": 4120, "tags": ["统计/机器学习", "概率分布"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>弱大数定律：样本均值依概率收敛于期望值。</p><p>强大数定律：样本均值以概率1收敛于期望值。</p></div>", "lvl2_answer": []}]}

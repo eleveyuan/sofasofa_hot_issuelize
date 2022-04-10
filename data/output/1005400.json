@@ -1,0 +1,1 @@
+{"id": "1005400", "question": "光滑函数中的光滑是什么意思？", "description": "<div class=\"col-md-11 col-xs-10\"><p>光滑函数中的光滑是什么意思？</p></div>", "viewer": 4423, "tags": ["数学", "高等数学"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>数学上有对“光滑”的严格定义。</p><p>一个函数如果任意阶导数都是连续的，那么这个函数就是光滑的。一个显然的例子是$f(x)=e^x$以及多项式函数。</p></div>", "lvl2_answer": []}]}

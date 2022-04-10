@@ -1,0 +1,1 @@
+{"id": "1005930", "question": "怎么判断一个数据集是双峰分布的？", "description": "<div class=\"col-md-11 col-xs-10\"><p>怎么判断一个数据集是双峰分布的，除了画出概率密度曲线来判断，还有什么好方法？</p></div>", "viewer": 5408, "tags": ["统计/机器学习", "概率分布"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>可以先对pdf进行Kernel smoothing，然后计算平滑后的曲线的极大值点，如果算出来是两个，那就是双峰分布。这样可以避免画出pdf再肉眼观测判断。</p></div>", "lvl2_answer": []}]}

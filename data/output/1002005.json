@@ -1,0 +1,1 @@
+{"id": "1002005", "question": "神经网络里每层的激活函数必须是一样的吗？", "description": "<div class=\"col-md-11 col-xs-10\"><p>深度学习萌新，请教大家</p><p>如果神经网络里有很多层，每层的激活函数必须是一样的吗？</p><p><br/></p></div>", "viewer": 5427, "tags": ["统计/机器学习", "深度学习", "人工神经网络"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>当然可以不一样，根据自己的要求，可以每层设置不一样的激活函数</p><p><br/></p></div>", "lvl2_answer": []}]}

@@ -1,0 +1,1 @@
+{"id": "1004409", "question": "如何像访问本地文件系统一样访问云存储？", "description": "<div class=\"col-md-11 col-xs-10\"><p>用zarr就可以实现~</p><p><br/></p><p><a href=\"https://zhuanlan.zhihu.com/p/64159537\" target=\"_blank\">https://zhuanlan.zhihu.com/p/64159537</a><br/></p></div>", "viewer": 75, "tags": ["统计/机器学习", "Python"], "answers": []}

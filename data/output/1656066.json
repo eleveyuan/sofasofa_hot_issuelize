@@ -1,0 +1,1 @@
+{"id": "1656066", "question": "sklearn不能直接处理含文本的类别变量？", "description": "<div class=\"col-md-11 col-xs-10\"><p>我用sklearn训练模型，然后就出现了报错</p><pre><code class=\"python\">ValueError: could not convert string to float</code></pre><p>直接用R训练模型的时候，类别变量是可以直接输入的。python是不可以的吗？<br/></p></div>", "viewer": 39, "tags": ["统计/机器学习", "监督式学习", "数据预处理", "Python"], "answers": []}

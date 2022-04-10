@@ -1,0 +1,1 @@
+{"id": "1003847", "question": "95%置信区间是不是每一次观测都不同呢", "description": "<div class=\"col-md-11 col-xs-10\"><p>每次用样本均值为中心 估计一个置信区间？</p></div>", "viewer": 3317, "tags": ["统计/机器学习", "假设检验"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>样本不同，得到的置信区间当然不同。</p><p>即使这些样本都是来自同一个分布的，得到原分布的均值置信区间也不一样</p></div>", "lvl2_answer": []}]}

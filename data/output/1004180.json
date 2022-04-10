@@ -1,0 +1,1 @@
+{"id": "1004180", "question": "怎么check dataframe 中的某个元素是否字符串？", "description": "<div class=\"col-md-11 col-xs-10\"><p>rt</p></div>", "viewer": 3527, "tags": ["统计/机器学习", "Python"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>我是问每个元素类型是否 是字符串 </p><p>找到答案了 谢谢</p><p>type(x)==str</p></div>", "lvl2_answer": []}]}

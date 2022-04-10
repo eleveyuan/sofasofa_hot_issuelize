@@ -1,0 +1,1 @@
+{"id": "1656072", "question": "概率统计里的iid是什么意思？", "description": "<div class=\"col-md-11 col-xs-10\"><p>概率统计里的iid是什么意思？<br/></p></div>", "viewer": 54, "tags": ["数学", "概率论"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>iid指的是独立同分布</p><p>Independent Identical Distributed</p><p>比如说x，y i.i.d.，指的就是变量x和y是独立的，且服从同一个分布<br/></p></div>", "lvl2_answer": []}]}

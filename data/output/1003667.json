@@ -1,0 +1,1 @@
+{"id": "1003667", "question": "python里的cdef是什么？", "description": "<div class=\"col-md-11 col-xs-10\"><p>python里的cdef是什么？和正常的def有区别么？</p></div>", "viewer": 9396, "tags": ["统计/机器学习", "Python"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p><b>def </b>用来在Python中声明一个函数。<b>cdef </b>在Cython的C语言层面声明了函数。</p></div>", "lvl2_answer": ["原来如此，明白了"]}]}

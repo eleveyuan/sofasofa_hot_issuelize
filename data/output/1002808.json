@@ -1,0 +1,1 @@
+{"id": "1002808", "question": "PCA与非负矩阵分解(NMF)的异同？", "description": "<div class=\"col-md-11 col-xs-10\"><p>我之前对NMF不是很了解，但是看了<a href=\"http://sofasofa.io/tutorials/image_compression/\" target=\"_blank\">K-Means算法、非负矩阵分解(NMF)与图像压缩</a>这个教程，发现NMF和PCA似乎是等价的。</p><p>请问它们有什么异同（原理、效果、应用场景）？</p></div>", "viewer": 4748, "tags": ["统计/机器学习", "线性代数", "数据降维"], "answers": []}
