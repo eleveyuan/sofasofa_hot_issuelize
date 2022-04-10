@@ -1,6 +1,7 @@
 # coding=utf-8
 import time
 import os
+import json
 
 import pandas as pd
 import requests
@@ -35,12 +36,29 @@ else:
 
 titles = url_pools_df['url'].to_list()
 parse_page = page_parser.Parser()
+i = 0
 for question_url in titles:
     print('*'*100)
     print(f'get page of {question_url}')
+    id = question_url.split('=')[1]
     parse_page.get_page(question_url)
     title = parse_page.get_question()
     print(f'questions: {title}')
-    parse_page.get_viewer()
-    parse_page.get_tags()
-    break
+    desc = parse_page.get_question_desc()
+    viewer =parse_page.get_viewer()
+    tags = parse_page.get_tags()
+    answers = parse_page.get_answer()
+    print(answers)
+    QA = {
+        'id': id,
+        'question': title,
+        'description': desc,
+        'viewer': viewer,
+        'tags': tags,
+        'answers': answers
+    }
+    with open('./data/output/' + id + '.json', 'w') as fw:
+        json.dump(QA, fw, ensure_ascii=False)
+    if i > 10:
+        break
+    i += 1
