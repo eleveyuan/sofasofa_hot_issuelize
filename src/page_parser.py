@@ -13,14 +13,14 @@ class Parser:
         return self.soup.find('h1').string
 
     def get_viewer(self):
-        tags = []
-        for tag in self.soup.find_all('a', attrs={"class": ["tag_link", "m-r"]}):
-            print(tag)
-            tags.append(tag.string)
-        return tags
+        return int(self.soup.find_all('div', class_='container p-y')[0].find('span').string.strip().split('：')[1])
 
     def get_tags(self):
-        pass
+        tags = []
+        # for tag in self.soup.find_all('a', attrs={"class": ["tag_link", "m-r"]}):
+        for tag in self.soup.find_all('a', class_="tag_link m-r"):
+            tags.append(tag.string.strip())
+        return tags
 
     def get_answer(self):
         pass

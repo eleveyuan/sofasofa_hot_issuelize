@@ -33,11 +33,14 @@ else:
     url_pools_df = url_pools_df.sort_values(by='url').reset_index(drop=True)
     url_pools_df.to_csv(url_pools)
 
+titles = url_pools_df['url'].to_list()
 parse_page = page_parser.Parser()
 for question_url in titles:
     print('*'*100)
     print(f'get page of {question_url}')
     parse_page.get_page(question_url)
     title = parse_page.get_question()
+    print(f'questions: {title}')
+    parse_page.get_viewer()
     parse_page.get_tags()
     break
