@@ -17,11 +17,18 @@ def render(data):
     question_viewer = data['viewer']
     question_tags = data['tags']
     question_answer = data['answers']
+    print(f'render and sav {question_id}: {question}')
     save(template.render(id=question_id,
                           question=question,
                           tags=question_tags,
                           description=question_desc,
                           answers=question_answer), question_id + '.html')
+
+
+# 过滤数据
+def is_filter(data):
+    if len(data['answers']) == 0:
+        return True
 
 
 # 保存渲染数据
@@ -34,7 +41,12 @@ def save(rendered, name, path='../data/rendered'):
 path_ = '../data/output'
 for _, _, c in os.walk(path_):
     for file in c:
-        file_path = os.path.join(path_, file)
-        with open(file_path, 'r') as fr:
-            json_data = json.load(fr)
-            render(json_data)
+        if file != '.DS_Store':
+            file_path = os.path.join(path_, file)
+            with open(file_path, 'r') as fr:
+                print(f'load file: {file_path}')
+                json_data = json.load(fr)
+                if not is_filter(json_data):
+                    render(json_data)
+                else:
+                    print(f'filter {json_data["id"]}: {json_data["question"]}')
