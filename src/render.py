@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 import os
 import json
+from collections import defaultdict
 
 from jinja2 import Environment, FileSystemLoader
 
 # 加载模板
 env = Environment(loader=FileSystemLoader('../templates'))
-template = env.get_template('sofa_template.html')
+_g = defaultdict(list)
+_inv_g = defaultdict(list)
 
 
 # 渲染模板
@@ -17,12 +19,31 @@ def render(data):
     question_viewer = data['viewer']
     question_tags = data['tags']
     question_answer = data['answers']
+    graph(question_id, question_tags)
     print(f'render and sav {question_id}: {question}')
+    template = env.get_template('sofa_template.html')
     save(template.render(id=question_id,
                           question=question,
                           tags=question_tags,
                           description=question_desc,
                           answers=question_answer), question_id + '.html')
+
+
+# 建立invert index
+# 就像邻接链表与逆邻接链表的转换一样
+def graph(id, tags):
+    _g[id] = tags
+
+
+def inv_graph():
+    new_keys = []
+    for v in _g.values():
+        new_keys.extend(v)
+    for k in new_keys:
+        _inv_g[k] = []
+    for k, v in _g.items():
+        for el in v:
+            _inv_g[el].append(k)
 
 
 # 过滤数据
