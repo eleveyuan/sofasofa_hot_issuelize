@@ -17,7 +17,7 @@
         <div class="card-header">
             <h3>Question {{ id }}: {{ question }}</h3>
             {% for tag in tags %}
-            <span class="badge badge-success">{{ tag }}</span>
+            <span class="badge badge-pill badge-success">{{ tag }}</span>
             {% endfor %}
             <p>{{ description }}</p>
             </div>
@@ -25,10 +25,13 @@
             <h3>Answer</h3>
             {% for answer in answers %}
             <div>
-                <div class="lvl1_answer"><span class="badge badge-primary">Answer {{loop.index}}</span>: {{ answer.lvl1_answer}}</div>
+                <div class="lvl1_answer"><span class="badge badge-warning">Answer {{loop.index}}</span>: {{ answer.lvl1_answer}}</div>
                 <ul class="lvl2_answer">
                 {% for lvls2_answer in answer.lvl2_answer %}
-                    <li>{{ lvls2_answer }}</li>
+                    <div>
+                        <span class="badge badge-info">comment {{loop.index}}</span>
+                        <span>{{ lvls2_answer }}</span>
+                    </div>
                 {% endfor %}
                 </ul>
             </div>
