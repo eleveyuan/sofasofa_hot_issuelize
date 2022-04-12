@@ -11,7 +11,7 @@ _g = defaultdict(list)
 _inv_g = defaultdict(list)
 
 
-# 渲染模板
+# 渲染模板 test
 def render(data):
     question_id = data['id']
     question = data['question']
