@@ -27,7 +27,7 @@
             <div>
                 <div class="lvl1_answer"><span class="badge badge-primary">Answer {{loop.index}}</span>: {{ answer.lvl1_answer}}</div>
                 <ul class="lvl2_answer">
-                {% for lvls2_answer in answers.lvl2_answer %}
+                {% for lvls2_answer in answer.lvl2_answer %}
                     <li>{{ lvls2_answer }}</li>
                 {% endfor %}
                 </ul>
