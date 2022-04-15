@@ -1,1 +1,0 @@
-{"id": "1656039", "question": "mysql查询表最后更新时间？", "description": "<div class=\"col-md-11 col-xs-10\">mysql里怎么查看一个table最后一次被更新(update, insert, alter这种操作都算）的日期时间？</div>", "viewer": 45, "tags": ["算法/数据结构/数据库", "mysql"], "answers": []}

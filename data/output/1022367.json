@@ -1,1 +1,0 @@
-{"id": "1022367", "question": "Cumulative Gain Chart 和Lift Chart的解释是什么", "description": "<div class=\"col-md-11 col-xs-10\"><p>Cumulative Gain Chart 和Lift Chart的解释是什么，应该在什么场景下使用啊？还有, 在同等模型预测能力下，对于imbalanced data，gain, lift数值是不是会更高？是不是和positive class rate相关啊？</p></div>", "viewer": 764, "tags": ["统计/机器学习", "监督式学习", "推荐系统", "模型验证"], "answers": []}

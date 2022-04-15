@@ -1,1 +1,0 @@
-{"id": "1006336", "question": "怎么求1到5打分评级数据的置信区间？", "description": "<div class=\"col-md-11 col-xs-10\"><p>1到5打分评级数据和一般的连续数据不大一样，而且也未必是正态分布的。这种情况下该如何求它的置信区间呢？</p></div>", "viewer": 1661, "tags": ["统计/机器学习", "描述性统计"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>没有影响的，直接按照普通的连续变量的置信区间来算</p></div>", "lvl2_answer": []}]}

@@ -1,1 +1,0 @@
-{"id": "1003347", "question": "半正定或者正定矩阵一定要是对称的吗？", "description": "<div class=\"col-md-11 col-xs-10\"><p>半正定或者正定矩阵一定要是对称的吗？还是说只要特征值非负或者大于0就可以了？</p></div>", "viewer": 8449, "tags": ["数学", "线性代数"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>按照严格定义来说，如果是实矩阵，正定矩阵一定是对称的；如果是复矩阵，正定矩阵一定是埃尔米特的。</p><p><br/></p></div>", "lvl2_answer": []}]}

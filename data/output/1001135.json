@@ -1,1 +1,0 @@
-{"id": "1001135", "question": "CNN中reLU层和max pooling层的前后顺序", "description": "<div class=\"col-md-11 col-xs-10\"><p>在用CNN做图像的时候，都是在reLU层之后再做max pooling？这个顺序有什么讲究吗？我可以先max pooling再reLU吗？</p><p>谢谢！</p><p><br/></p></div>", "viewer": 7982, "tags": ["统计/机器学习", "深度学习", "计算机视觉", "人工神经网络"], "answers": []}

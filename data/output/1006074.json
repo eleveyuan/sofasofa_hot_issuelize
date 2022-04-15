@@ -1,1 +1,0 @@
-{"id": "1006074", "question": "用贝叶斯怎么输出模型的预测准确率？", "description": "<div class=\"col-md-11 col-xs-10\"><p>用贝叶斯怎么输出模型的预测准确率？<br/></p></div>", "viewer": 1477, "tags": ["统计/机器学习", "贝叶斯"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>模型的预测准确率可以根据交叉验证得到，不知道你是不是问的这个</p><p><br/></p></div>", "lvl2_answer": []}]}

@@ -1,1 +1,0 @@
-{"id": "1656006", "question": "如何给mysql的表增加一列？", "description": "<div class=\"col-md-11 col-xs-10\"><p>如果一个表已经建好了，需要再增加一列，该怎么修改这个表呢？</p></div>", "viewer": 69, "tags": ["算法/数据结构/数据库", "mysql"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><pre><code class=\"python\">Alter Table 表名 add 字段名称 类型;</code></pre><p><br/></p></div>", "lvl2_answer": []}]}

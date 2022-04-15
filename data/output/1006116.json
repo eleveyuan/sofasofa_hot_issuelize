@@ -1,1 +1,0 @@
-{"id": "1006116", "question": "凸函数一定可导吗？", "description": "<div class=\"col-md-11 col-xs-10\"><p>凸函数必须是可导的吗？有这个要求吗？谢谢！</p></div>", "viewer": 3896, "tags": ["数学", "高等数学"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>不需要可导。是否是凸函数与是否可导没有直接关联。</p><p>$f(x)=|x|$就是凸函数，但是这个函数在0点并不可导。</p></div>", "lvl2_answer": []}]}

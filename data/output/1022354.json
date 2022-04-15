@@ -1,1 +1,0 @@
-{"id": "1022354", "question": "询问LASSO特征选择与频次图绘制", "description": "<div class=\"col-md-11 col-xs-10\"><p>对特征矩阵进行LASSO特征筛选，想要画最后留下来的特征频次图，该如何统计绘制呢？先行感谢各位大佬啦</p></div>", "viewer": 949, "tags": ["统计/机器学习", "数据降维", "特征选择"], "answers": []}

@@ -12,7 +12,7 @@ from src import page_parser
 root_url = "http://sofasofa.io/"  # 主站地址
 page_interface = "http://sofasofa.io/public_forum_exe.php?action=load_more"  # 分页请求接口
 
-url_pools = './data/main/urls_pool.csv'
+url_pools = './data/urls_pool.csv'
 url_pools_df = None
 if os.path.exists(url_pools):
     url_pools_df = pd.read_csv(url_pools, index_col=[0])

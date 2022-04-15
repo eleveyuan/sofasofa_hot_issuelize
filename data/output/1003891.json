@@ -1,1 +1,0 @@
-{"id": "1003891", "question": "PCA需要正态性作为提前假设吗？", "description": "<div class=\"col-md-11 col-xs-10\"><p>在网上的一些文章里看到有提到，PCA需要正态性作为提前假设。这是为什么呢？</p></div>", "viewer": 4458, "tags": ["统计/机器学习", "概率分布", "无监督学习", "数据降维", "开放问题"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><p>PCA主成分分析要求数据是近似正态分布的，一般对于样本数据较高时都会适用。</p></div>", "lvl2_answer": []}]}

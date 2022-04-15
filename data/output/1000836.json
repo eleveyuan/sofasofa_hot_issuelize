@@ -1,1 +1,0 @@
-{"id": "1000836", "question": "pandas DataFrame去掉重复的行", "description": "<div class=\"col-md-11 col-xs-10\"><p>有没有什么好的方法可以去掉pandas DataFrame中重复的行？</p></div>", "viewer": 11626, "tags": ["统计/机器学习", "Python"], "answers": [{"lvl1_answer": "<div class=\"col-md-11 col-xs-10 p-r\"><pre><code>df = df.drop_duplicates()</code></pre></div>", "lvl2_answer": ["谢谢！"]}]}

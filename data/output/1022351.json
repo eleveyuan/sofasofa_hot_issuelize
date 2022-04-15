@@ -1,1 +1,0 @@
-{"id": "1022351", "question": "GBDT和XGBoost在叶子节点权重计算上有什么不同？", "description": "<div class=\"col-md-11 col-xs-10\"><p>GBDT叶子节点权重由所有分到该叶子节点的样本残差均值得到，而XGBoost由所有分到该叶子节点的一阶梯度和二阶梯度计算得到，是这样吗？</p></div>", "viewer": 1683, "tags": ["统计/机器学习", "监督式学习"], "answers": []}

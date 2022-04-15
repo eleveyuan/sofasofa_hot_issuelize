@@ -1,1 +1,0 @@
-{"id": "1022262", "question": "BatchNormalization", "description": "<div class=\"col-md-11 col-xs-10\"><p>各位前辈，请问构建convLSTM 网络中，如果用了这个BatchNormalization，还需要对之前的数据进行归一化到（0，1）处理吗？<span style=\"font-size: 1rem;\">如果还需要归一化处理的化，Keras中有什么函数可以直接对不同变量进行归一化批处理呢？非常感谢！！！</span></p></div>", "viewer": 1117, "tags": ["统计/机器学习", "人工神经网络", "TensorFlow"], "answers": []}

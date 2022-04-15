@@ -1,1 +1,0 @@
-{"id": "1003732", "question": "K折交叉验证是否有意义？", "description": "<div class=\"col-md-11 col-xs-10\"><p>如果验证集本身的数据就已经是被shuffle的，K折交叉的意义又何在？</p></div>", "viewer": 69, "tags": ["统计/机器学习", "模型验证"], "answers": []}
