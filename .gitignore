@@ -135,3 +135,4 @@ dmypy.json
 data/mock*
 data/output/*
 src/deal_mock.py
+data
